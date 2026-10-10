@@ -1,0 +1,8 @@
+# Direct dependency pins for Python 3.10. This is an installable pinned requirements file.
+# Install with: python -m pip install -r requirements.lock
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+pytest==8.3.3
+tabulate==0.9.0

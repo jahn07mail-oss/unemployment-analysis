@@ -1,0 +1,27 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.env
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Keep the supplied assignment dataset local unless its license permits redistribution.
+data/raw/*
+!data/raw/.gitkeep
+# Generated analysis outputs can be reproduced by running the pipeline.
+reports/**
+!reports/.gitkeep
+!reports/figures/
+reports/figures/*
+!reports/figures/.gitkeep
